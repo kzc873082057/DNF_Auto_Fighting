@@ -9,7 +9,7 @@ def Main():
     print("初始化JAVA虚拟机".center(50, "*"))
     fighting = Fighting()
     playnum = 1
-    while playnum <4:
+    while playnum <=4:
         fighting.gotoRoom()
         fighting.entry()
         fighting.autoattack()
